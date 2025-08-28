@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet">
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+  <header><a href="#" class="logo">
+      S--DC
+    </a>
+    <ul class="navmenu">
+      <li><a href="#hom">Home</a></li>
+      <li><a href="#ser">Services</a></li>
+      <li><a href="#con">Contact us</a></li>
+      <li><a href="#abo">About</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="#" class="nav-btn">Book now</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+  </header>
+  <section class="teeth" id="hom">
+    <div class="teeth-text">
+      <span>Dr Niranjan Murthy</span>
+      <h5>#Dentist</h5>
+      <h1>Shashank Dental Clinic</h1>
+      <p>Experience in this field upto 30+ years </p>
+    </div>
+    <div class="teeth_img">
+      <img src="tooth.png.png">
+    </div>
+    <div class="scroll-btn">
+      <a href="#">
+        <i class="ri-arrow-down-double-fill"></i>
+        Scroll down
+      </a>
+    </div>
+  </section>
+  <section>
+    <div class="wrapper p-top" id="ser">
+      <div class="text-center">
+        <h5>Our Services</h5>
+        <h2>How does it work</h2>
+      </div>
+
+      <div class="services-row">
+        <div class="service-card">
+          <div class="images-container">
+            <img src="appointment.png" alt="Appointment">
+          </div>
+          <h3>Book within 48 hours</h3>
+        </div>
+
+        <div class="service-card">
+          <div class="images-container">
+            <img src="Calender.png.png" alt="Calendar">
+          </div>
+          <h3>See the schedule</h3>
+        </div>
+
+        <div class="service-card">
+          <div class="images-container">
+            <img src="doctor.png.png" alt="Doctor">
+          </div>
+          <h3>Meet the doctor</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="wrapper p-top"id="con">
+      <div class="text-center">
+        <h5>Contact Us</h5>
+        <h2>Options to Contact</h2>
+      </div>
+       <div class="contact-row"id="location-card">
+        <div class="contact-card">
+          <div class="images-container">
+            <img src="location.png" alt="Location">
+          </div>
+          <p>Shashank Dental Clinic,Sharavathi Nagar,Shimogga,Working time"10:30 am-2:00pm,5:30pm-9:00pm"</p>
+        </div>
+       <div class="contact-row" id="mail-card">
+        <div class="contact-card">
+          <div class="images-container">
+            <img src="mail.png" alt="Mail">
+          </div>
+          <p>Any information please mail to the gmail"drniranjanmurthy2410@gmail.com"</p>
+        </div>
+       <div class="contact-row"  id="call-card">
+        <div class="contact-card">
+          <div class="images-container">
+            <img src="call.png" alt="Call">
+          </div>
+          <p>To get an appointment call for the number 9845651302</p>
+        </div>
+       <div class="contact-row" id="instagram-card">
+        <div class="contact-card">
+          <div class="images-container">
+            <img src="instagram.png" alt="Instagram">
+          </div>
+          <p>DM for any clarification to the username"dentalclinic448"</p>
+        </div>
+  </section>
+  <section>
+       <div class="wrapper p-top"id="abo">
+        <h3>About Us</h3>
+        <div class="box"> Dr Niranjan Murthy</div>
+           <p class="text-element">
+            He has 30+ years of Experience in this field,expert in "Fixed Dentures,RootCanal Treatments"
+           </p>
+            <div class="box"> Dr Ganesh Shetty</div>
+           <p class="text-element">
+            He has  10+ years of Experience in this field,expert in "Braces"
+           </p>
+            <div class="box"> Dr Somshekar</div>
+           <p class="text-element">
+            He has 6+ years of Experience in this field,expert in "Oral Surgeon"
+           </p>
+           <div class="box"> Dr Arun Kumar</div>
+           <p class="text-element">
+            He has 6+ years of Experience in this field,expert in "Implant"
+           </p>
+       </div>
+  </section>
+<section class="booking-form" id="booking">
+  <div class="wrapper p-top text-center">
+    <h2>Book an Appointment</h2>
+    <form id="booking-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+      <input type="email" name="email" placeholder="Email Address" required />
+      <textarea name="message" rows="4" placeholder="Message or Preferred Date"></textarea>
+      <button type="submit" class="nav-btn">Submit</button>
+    </form>
+    <p id="confirmation-message" style="display:none; margin-top:10px;"></p>
+  </div>
+</section>
+
+  <script src="js/script.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
