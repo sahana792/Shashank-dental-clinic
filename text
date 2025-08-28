@@ -1,0 +1,19 @@
+<div class="hero-btn">
+        <a href="#">Read more<i class="ri-arrow-right-line"></i></a>
+        <a href="#">Watch videos<i class="ri-play-line"></i></a>
+    </div>
+    .hero-btn{
+        display: inline-block;
+        background-color: var(--main-color);
+        border-radius: 16px;
+        color: var(--text-color);
+        padding: 12px 30px;
+        font-size: var(--p-font);
+        font-weight: 500;
+        margin-right: 20px;
+        transition: .5s;
+    }
+    .hero-btn a:hover{
+        background: var(--text-color);
+        color: #101010;
+    }
