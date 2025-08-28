@@ -436,11 +436,6 @@ h5 {
     filter: drop-shadow(0px 4px 6px rgba(0,0,0,0.2));
   }
 
-  /* Hide social icons */
-  .social-icons {
-    display: none !important;
-  }
-
   /* Scroll button */
   .scroll-btn a {
     font-size: 14px;
@@ -594,5 +589,6 @@ h5 {
     color: #1b4332;
   }
 }
+
 
 
